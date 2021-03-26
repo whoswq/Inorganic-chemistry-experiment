@@ -1,4 +1,4 @@
-\documentclass[a4paper]{ctexart}
+\documentclass[a4paper,zihao=5,UTF8]{ctexart}
 \usepackage[top=2.3cm,bottom=2cm,left=1.7cm,right=1.7cm]{geometry} 
 \usepackage{amsmath, amssymb}
 \usepackage{color}
@@ -19,6 +19,7 @@
 \usepackage{subfigure}
 \usepackage{braket}
 \usepackage{cite}
+\usepackage[version=4]{mhchem}
 \CTEXsetup[format={\Large\bfseries}]{section}
 \def\d{\mathrm{d}}
 \def\e{\mathrm{e}}
@@ -29,11 +30,9 @@
 \newcommand{\dv}[2]{\frac{\d{#1}}{\d{#2}}}
 \newcommand{\pdv}[2]{\frac{\partial{#1}}{\partial{#2}}}
 \def\degree{$^{\circ}$}
-\title{\textbf{}}
+\title{\textbf{实验一 \ce{SrO}-\ce{Al2O3}二元体系中几种荧光材料的合成和表征\cite{inorganic_chemistry_1}}}
 \author{王崇斌\;1800011716}
-\date{}
-
-\makeatletter %使\section中的内容左对齐
+\makeatletter
 \makeatother
 \begin{document}
 	\pagestyle{fancy}
@@ -43,4 +42,24 @@
 	\rhead{\today}
 	\maketitle
     \thispagestyle{fancy}
+	\section{实验目的}
+	\begin{enumerate}
+		\item 学习高温固相合成的基本方法
+		\item 学习软化学制备前驱体的基本方法
+		\item 了解固体荧光材料的发光原理和基本表征方法
+	\end{enumerate}
+	\section{实验原理}
+	\subsection{高温固相合成}
+	\subsection{软化学制备前驱体}
+	\subsection{荧光材料的发光原理}
+	\section{实验操作步骤}
+	\subsection{高温固相反应合成荧光材料}
+	\subsection{燃烧法合成荧光材料前驱体}
+	\section{荧光材料的表征}
+	\subsection{发光性能的表征}
+	\subsection{物相的鉴定}
+
+	
+	\bibliographystyle{plain}
+	\bibliography{ref}
 \end{document}
